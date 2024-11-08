@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.navclass{
+    position: fixed;
+    width: 100%;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    height: 7vh;
+    border-radius: 5px;
+}
+.link > a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: -10px;
+    align-items: center;
+}
+.logo > a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    margin-right: 300px;
+    font-size: 28px;
+}
+.logo img{
+    width: 100px;
+}
+.logo h1{
+    margin-left: -30px;
+    font-size: 30px;
+}
+.body{
+    padding-top:50px ;
+}
+header{
+    background-image: url('/images/shedrack-salami-f6a2ZaBytUM-unsplash.jpg');
+    height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+}
+.head{
+    margin-top: 150px;
+    color: beige;
+    font-size: 50px;
+}
+.button{
+    height: 7vh;
+    width: 120px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+}
+main{
+    background-color: beige;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+.block{
+    background-color:rgba( 0, 0, 0 , 0.5) ;
+    height: 40vh;
+    width: 400px;
+    margin: 55px auto 0 auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px;
+    color: white;
+    padding: 30px;
+}
+.block > p{
+    margin-top: 10px;
+}
+.block > ul{
+    margin-top: 30px;
+}
+ul > li{
+    margin-top: 10px;
+}
+footer{
+    color: white;
+    background-color: darkgreen;
+    border-bottom: 10px;
+}
+footer > h3{
+    margin-left: 150px;
+}

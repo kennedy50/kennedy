@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('/images/benyamin-bohlouli-B_sK_xgzwVA-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh ;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: beige;
+    height: 7vh;
+    border-radius: 5px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: -10px;
+    align-items: center;
+    text-decoration: none;
+}
+.logo img{
+    width: 100px;
+}
+.logo h1{
+    margin-left: -30px;
+    font-size: 30px;
+}
+.signin{
+    background-color: rgba( 0, 0, 0, 0.7);
+    text-align: center;
+    width: 400px;
+    margin: 30px auto 0 auto;
+    height: 65vh;
+    margin-top: 120px;
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+}
+.signin > h1{
+    margin-right: 250px;
+    color: beige;
+}
+#simple{
+    width: 350px;
+    height: 6vh;
+    margin-top: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+.signin > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+#button{
+    width: 120px;
+    height: 6vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: beige;
+}
+p{
+    font-size: 20px;
+}
+p > a{
+    text-decoration: none;
+}
